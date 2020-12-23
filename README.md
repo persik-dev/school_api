@@ -7,13 +7,13 @@
     -drf_yasg
 
 
-##Конфигурация
+## Конфигурация
     pip install -r requirements.txt 
     python manage.py makemigrations
     python manage.py migrate
 
 
-### Модели и связи между ними
+## Модели и связи между ними
 
     Teacher     <->     School      = ManyToMany 
     
@@ -30,7 +30,8 @@
     Student     ->      Section     = ManyToOne 
 
 
-##Документация доступна по 
+## Документация доступна по 
+    
     http://127.0.0.1:8000/swagger/ 
     
     http://127.0.0.1:8000/redoc/
