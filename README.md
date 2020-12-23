@@ -2,7 +2,7 @@
 
     -Generic Views 
     -drf-writable-nested 
-    -django-filters
+    -django-filter
     -djangorestframework.filters
     -drf_yasg
 
