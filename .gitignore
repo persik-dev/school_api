@@ -1,0 +1,15 @@
+.idea
+venv
+*.pyc
+*.log
+media/*
+static/*
+!.gitkeep
+logs/*
+/.env
+db.sqlite3
+templates
+school/migrations/*
+!__init__.py
+
+
