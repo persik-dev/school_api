@@ -23,7 +23,7 @@
 
     Section     ->      School      = ManyToOne
 
-    Subject     ->      Teacher     = ManyToMany
+    Subject     <->      Teacher     = ManyToMany
     Subject     ->      School      = ManyToOne 
 
     Student     ->      School      = ManyToOne 
