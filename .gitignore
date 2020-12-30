@@ -11,5 +11,7 @@ db.sqlite3
 templates
 school/migrations/*
 !__init__.py
+env/
+.vscode/
 
 
